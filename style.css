@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* NAVBAR STYLE */
+
+#navbar{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+#logo{
+    margin: 10px 15px;
+}
+
+#logo img{
+    width: 100px;
+    height: 60px;
+    margin: 5px 10px;
+    padding: 3px 10px;
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#item{
+    list-style: none;
+    margin-left: 10px;
+
+}
+
+#item a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 5px 30px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+#item a:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(43, 43, 40);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+/* HOME STYLE */
+
+#home{
+    height: 738px;
+    display: flex;
+    flex-direction: column;
+    padding: 4px 150px;
+    justify-content: center;
+    align-items: center;    
+}
+
+#home::before{
+    content: "";
+    background:url(bg-1.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.85;
+}
+#home h1{
+    font-size: 2.5rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+#home p{
+    font-size: 1.1rem;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+#h-primary{
+    font-size: 2.3rem;
+    padding: 15px;
+}
+
+.btn{
+    padding: 8px 15px;
+    border: 2px solid white;
+    background-color: rgb(130, 125, 125);
+    color: aliceblue;
+    margin: 20px;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.btn:hover{
+    color: black;
+    background-color: aliceblue;
+}
+
+/* SECTION-2-STYLE */
+
+#services{ 
+    margin: 34px;   
+   display: flex; 
+   }
+
+#h-primary{
+    text-align: center;
+}
+
+   .h-secondary{
+       font-size: 3.2rem;
+       padding: 12px;
+   } 
+   
+   #services{
+       margin: 34px;
+       display: flex;
+   }
+   
+   .box{
+    background-color: rgb(230, 224, 217);
+   border: 2px solid rgb(191, 23, 23);
+   text-align: center;
+   width: 370px;
+   height: 200px;
+   padding: 12px;
+   border-radius: 15px;
+   margin: 5px 15px;
+
+   }
+   
+   .box img{
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: auto;
+   }
+   #services a{
+    text-decoration: none;
+    color: black;
+   }
+ 
